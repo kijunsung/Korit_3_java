@@ -1,5 +1,4 @@
-package ch10_setter_gette.univ_student;
-
+package ch10_setter_getter.univ_student;
 /*
     1. 클래스 설계
     name / grade(1, 2, 3) / score(double) -> 전부 private
@@ -41,8 +40,9 @@ class UnivStudent {
     int grade;
     double score;
 
-    public UnivStudent() {}
+    public UnivStudent() {
 
+    }
     public UnivStudent(String name) {
         this.name = name;
     }
@@ -62,6 +62,45 @@ class UnivStudent {
         this.score = score;
     }
 
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
 
+    public int getGrade() {
+        return grade;
+    }
+
+    public void setGrade(int grade) {
+        if( grade < 1 || grade > 4 ) {
+            System.out.println(name +  " : 불가능한 입력입니다.");
+            return;
+        }
+        this.grade = grade;
+    }
+
+    public double getScore() {
+        return score;
+    }
+
+    public void setScore(double score) {
+        if(score < 0 || score > 4.5) {
+            System.out.println(name + " : 불가능한 입력입니다.");
+            return;
+        }
+        this.score = score;
+    }
+
+    public void showInfo() {
+        System.out.println("이름 : " + name);
+        System.out.println("학년 : " + grade);
+        System.out.println("점수 : " + score);
+        System.out.println();
+    }
 }
+
+
+
