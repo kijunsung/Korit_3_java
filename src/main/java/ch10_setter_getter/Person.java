@@ -22,6 +22,7 @@ public class Person {
         System.out.println("변경 전 나이 : " + this.age);
         this.age = age;
         System.out.println("변경 후 나이 : " + age);
+
     }
 
     public Person(String name, int age) {
@@ -75,6 +76,7 @@ public class Person {
     // 데이터의 조회만 하면 되기 때문에 매개 변수가 요구되지 않음.
     // 필드와 동일한 자료형의 return 값이 요구됨. -> void 아님.
     public String getName() {
+
         return name;
     }
     public int getAge() {

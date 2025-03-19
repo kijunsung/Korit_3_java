@@ -2,7 +2,7 @@ package ch10_setter_getter;
 
 public class PersonMain {
     public static void main(String[] args) {
-        Person person1 = new Person(-10);   // 값은 들어가지 않았지만 객체는 생성됨
+        Person person1 = new Person(-38);   // 값은 들어가지 않았지만 객체는 생성됨
         System.out.println(person1.getName());
         System.out.println(person1.getAge());
 //        person1.name = "안근수";
