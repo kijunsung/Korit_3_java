@@ -2,6 +2,7 @@ package ch09_classes.students;
 
 public class Student2 {
     //필드 선언되있을때 개꿀치트키!!
+    // alt + ins
 
     int studentCode;
     String name;

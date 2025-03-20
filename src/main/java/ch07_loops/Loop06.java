@@ -6,8 +6,8 @@ import java.util.Scanner;
     while문과 for문을 섞은 사례
 
     n을 입력 받아
-    1부터 n까지의 합을 구하는 반복문을                -> for문
-    반복하시겠습니까? Y/N >>> N이 나올 때까지 반복할 것 -> while문
+    1부터 n까지의 합을 구하는 반복문을                  -> for문
+    반복하시겠습니까? Y/N >>> N이 나올 때까지 반복할 것  -> while문
  */
 public class Loop06 {
     public static void main(String[] args) {
