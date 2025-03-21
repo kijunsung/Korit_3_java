@@ -1,10 +1,8 @@
-package ch00_practice;
+package ch00_review;
 
 import java.util.Scanner;
 
-public class Practice01 {
-
-
+public class Review01 {
     public static void main(String[] args) {
         System.out.println("안녕 자바야 하하");
         //변수: 데이터를 담는 바구니인데, 이름표를 붙혀줌
@@ -52,6 +50,3 @@ public class Practice01 {
 
     }
 }
-
-
-

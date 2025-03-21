@@ -1,8 +1,8 @@
-package ch00_practice;
+package ch00_review;
 
 import java.util.Scanner;
 
-public class Practice04 {
+public class Review04 {
     public static void main(String[] args) {
         /*
             for반복문
@@ -62,7 +62,7 @@ public class Practice04 {
 
         /*이상과 같은 코드라인이 있을 때 sum / avg는 아직 사용되지도
          않았는데 미리 선언되어있고,
-         numOfStudent의 경우에는 몇줆ㄴ 더 내려가면 쓰는데
+         numOfStudent의 경우에는 몇줄만 더 내려가면 쓰는데
          굳이  저 위에 꾸역꾸역 써놨습니다.
 
          그런데 사용할 클래스 및 변수 목록을 봤을 때 (그리고 변수명을

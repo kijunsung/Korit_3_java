@@ -1,6 +1,6 @@
-package ch00_practice;
+package ch00_review;
 
-public class Practice02 {
+public class Review02 {
     public static void main(String[] args) {
         /*
             연산자

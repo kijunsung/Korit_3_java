@@ -1,8 +1,8 @@
-package ch00_practice;
+package ch00_review;
 
 import java.util.Scanner;
 
-public class Practice03 {
+public class Review03 {
     public static void main(String[] args) {
         /*
             조건문
