@@ -62,13 +62,27 @@ public class Array01 {
         String[] strArr1 = {"안", "녕", "하", "세", "요"};
 
         // element들 하나하나 출력하는데 실행결과 안녕하세요 로 콘솔에 출력
-        for(int i = 0 ; i < strArr1.length ; i++) {
-            System.out.print(strArr1[i]);
-        }
-        System.out.println();
+//        for(int i = 0 ; i < strArr1.length ; i++) {
+//            System.out.print(strArr1[i]);
+//        }
+//        System.out.println();
         // 출력결과 안/녕/하/세/요/ 로 출력되게 할 것
-        for(int i = 0 ; i < strArr1.length ; i++) {
-            System.out.print(strArr1[i] + "/");
-        }
+//        for(int i = 0 ; i < strArr1.length ; i++) {
+//            System.out.print(strArr1[i] + "/");
+//        }
+
+        int[] arr03 = new int[10];  // 비어있는 배열을 선언
+        // 초기화를 하려면 어떻게 해야하나
+        arr03[0] = 0;
+        arr03[1] = 0;
+        arr03[2] = 0;
+        arr03[3] = 0;
+        arr03[4] = 0;   // 인덱스넘버만 바뀌는거니까
+        // 만약에 element가 특정한 순서(반복되는 규칙)를 지니고 있다면
+        // 반복문을 통해서 값을 집어넣는 것도 가능하겠습니다.
+
+        System.out.println(arr03[0]);
+
+
     }
 }
