@@ -62,14 +62,14 @@ public class Array01 {
         String[] strArr1 = {"안", "녕", "하", "세", "요"};
 
         // element들 하나하나 출력하는데 실행결과 안녕하세요 로 콘솔에 출력
-//        for(int i = 0 ; i < strArr1.length ; i++) {
-//            System.out.print(strArr1[i]);
-//        }
-//        System.out.println();
-        // 출력결과 안/녕/하/세/요/ 로 출력되게 할 것
-//        for(int i = 0 ; i < strArr1.length ; i++) {
-//            System.out.print(strArr1[i] + "/");
-//        }
+        for(int i = 0 ; i < strArr1.length ; i++) {
+            System.out.print(strArr1[i]);
+        }
+        System.out.println();
+//         출력결과 안/녕/하/세/요/ 로 출력되게 할 것
+        for(int i = 0 ; i < strArr1.length ; i++) {
+            System.out.print(strArr1[i] + "/");
+        }
 
         int[] arr03 = new int[10];  // 비어있는 배열을 선언
         // 초기화를 하려면 어떻게 해야하나
