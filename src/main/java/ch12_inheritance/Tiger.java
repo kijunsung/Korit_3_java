@@ -1,4 +1,4 @@
-package ch13_inheritance;
+package ch12_inheritance;
 
 public class Tiger extends Animal { //(자식)클래스명 extends (부모)클래스명
     // 필드 안 쓸겁니다

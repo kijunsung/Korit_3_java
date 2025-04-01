@@ -1,4 +1,4 @@
-package ch13_inheritance;
+package ch12_inheritance;
 /*
     패키지 명 위에 확인하시고
     Animal

@@ -1,4 +1,4 @@
-package ch13_inheritance;
+package ch12_inheritance;
 
 public class Animal {
     // 필드 생성

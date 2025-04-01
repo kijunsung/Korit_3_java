@@ -12,7 +12,6 @@ public class Array16LottoAnswer {
 
         int round = 5;
 
-
         for (int i = 0; i < lottoNumbers.length; i++) {
             lottoNumbers[i] = (int)(Math.random()*45) +1;
         }

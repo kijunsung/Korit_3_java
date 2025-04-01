@@ -1,4 +1,4 @@
-package ch13_inheritance.products;
+package ch12_inheritance.products;
 /*
     부모 클래스 Item
     자식 클래스 Product

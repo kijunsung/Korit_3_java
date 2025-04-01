@@ -13,8 +13,8 @@ public class FactoryMain {
         SmartPhone smartPhone2 = factory1.produceSmartPhone();
         System.out.println(smartPhone2);
         SmartPhone smartPhone3 = factory3.produceSmartPhone();
-        SmartPhone smartPhone4 = factory4.produceSmartPhone();
         System.out.println(smartPhone3);
+        SmartPhone smartPhone4 = factory4.produceSmartPhone();
         System.out.println(smartPhone4);
 
         /*

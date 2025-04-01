@@ -1,4 +1,4 @@
-package ch13_inheritance;
+package ch12_inheritance;
 /*
     Tiger.java처럼 Animal 클래스를 상속 받고
     생성자 및 getter / setter 다 정의하시고

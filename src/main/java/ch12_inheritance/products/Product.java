@@ -1,4 +1,4 @@
-package ch13_inheritance.products;
+package ch12_inheritance.products;
 
 public class Product extends Item{
     private int price;

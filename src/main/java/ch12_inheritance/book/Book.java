@@ -1,4 +1,4 @@
-package ch13_inheritance.book;
+package ch12_inheritance.book;
 /*
     부모 클래스 : Book
     자식 클래스 : EBook

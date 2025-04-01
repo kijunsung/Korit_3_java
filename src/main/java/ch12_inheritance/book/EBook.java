@@ -1,4 +1,4 @@
-package ch13_inheritance.book;
+package ch12_inheritance.book;
 
 public class EBook extends Book{
     private double fileSize;

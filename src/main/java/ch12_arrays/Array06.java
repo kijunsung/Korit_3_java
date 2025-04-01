@@ -27,8 +27,8 @@ public class Array06 {
     }
     //등급 인원수를 구하는 메서드 -> 얘는 call3()
     private void countGrade(int[] scores) {
-        int[] grades = {0, 0, 0, 0, 0};
-        for(int i = 0 ; i < scores.length ; i++) {
+        int[] grades = new int[5];
+        for(int i = 0 ; i < scores.length  ; i++) {
             if(scores[i] > 89) {
                 grades[0]++;
             } else if (scores[i] > 79) {
