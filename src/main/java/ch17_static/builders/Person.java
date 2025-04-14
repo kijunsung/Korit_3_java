@@ -1,8 +1,8 @@
 package ch17_static.builders;
 
-import lombok.ToString;
 
-@ToString
+
+
 public class Person {
     private String name;
     private int age;
@@ -43,6 +43,9 @@ public class Person {
     // 빌더 패턴이 생겨났다.
 
     // 이제 빌더 패턴을 실제로 작성하는 부분입니다.
+    public void showInfo() {
+        System.out.println("주문 번호: "+ name+ "dd"+age+ "dd"+address);
+    }
 
     private Person(Builder builder) {   // argument 대입이 아니라
         // builder 객체의 속성값을 그대로 Person 생성자에 대입하여

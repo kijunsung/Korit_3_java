@@ -7,11 +7,11 @@ public class PersonMain {
         // 이상이 여태까지의 방식이고
         // 빌더 적용시에는
         Person person1 = new Person.Builder()
-//                .address("부산광역시 연제구")
-//                .name("안근수")
+                .address("부산광역시 연제구")
+                .name("안근수")
                 .age(38)
                 .build();
 
-        System.out.println(person1);
+        person1.showInfo();
     }
 }
